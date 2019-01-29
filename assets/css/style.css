@@ -1,0 +1,393 @@
+﻿@font-face {
+font-family: "Georgia";
+src: url("css/fonts/Harabara.eot");
+src: url("assets/fonts/Georgia.ttf");
+src: url("assets/fonts/GeorgiaRegularfont.ttf");
+src: url("assets/fonts/georgiaBold.ttf");
+src: url("assets/fonts/georgiaBoldItalic.ttf");
+}
+
+body {
+    font-family: Georgia Regular; /**bold,Times,Times New Roman,serif;*/
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+    background: #660000;
+}
+
+.header {
+    background: #76c38f;
+    height:5px;
+}
+.section {
+    height: auto;
+    width: 100%;
+    padding: 40px 0px 50px 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.heroSection {
+    background: #290000;
+}
+
+
+
+.logo {
+    width: 25%;
+    float: left;
+}
+.log h2{
+    font-size:28px;
+}
+
+.menu {
+    width: 75%;
+    float: right;
+}
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    list-style-type: none;
+    margin-left:30px;
+    display: inline-block;
+}
+
+.menu ul li:first-child {
+    margin-left: 0px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+}
+.hoverLi:hover {
+    background: #76c38f;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    line-height:30px;
+}
+
+.item{
+    height:40px;
+    width:100px;
+}
+.item:hover {
+    background: #76c38f;
+}
+
+.clear {
+    clear: both;
+}
+
+.descText {
+    float: left;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.descPhoto {
+    float: right;
+    width: 50%;
+    /** width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: #333333;
+    border: 25px solid #6b6b6b;**/
+}
+    .descPhoto img {
+        width: 380px;
+        height: 380px;
+        border-radius: 50%;
+        border: 25px solid #6b6b6b;
+    }
+
+.descText h4 {
+    font-size: 46px;
+}
+
+.descText p {
+    font-size: 12px;
+   /** width: 318px;**/
+    color: #979797;
+    line-height: 27px;
+    margin-right:84px;
+}
+.descText button {
+    margin-top:15px;
+    background: #76c38f;
+    border: none;
+    width: 140px;
+    height: 35px;
+    border-radius:10px;
+}
+.descText button a{
+    text-decoration:none;
+    color:#ffffff;
+    font-size:13px;
+
+}
+.servicesSection {
+    background: #660000;
+}
+.row {
+    height: auto;
+    width: 100%;
+    margin-bottom: 115px;
+}
+.service {
+    color: #333333;
+    background: #ffffff;
+    width: 25%;
+    height: 305px;
+    width: 225px;
+    float: left;
+    margin-left: 20px;
+    transition-duration: 0.2s;
+}
+.service:first-child {
+    margin-left:0px;
+}
+.serviceIcon img {
+    height: 120px;
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.service h4 {
+    margin: auto 0;
+    font-size: 32px;
+    /* color: #333333;*/
+    text-align: center;
+}
+.service p {
+    margin: 20px 30px;
+    font-size: 12px;
+    color: #979797;
+    text-align: center;
+}
+.service:hover {
+    color:white;
+    background: #76c38f;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+    .service:hover  p {
+        color: white;
+    }
+    .latestWorkSection {
+        background: #660000;
+        margin-top: 32px;
+    }
+
+.latestWork {
+    background: #303030;
+    height: 3px;
+    position: relative;
+}
+
+.textLine {
+    height: 50px;
+    width: 250px;
+    background: #303030;
+    border-radius: 10px;
+    top: -820%;
+    left: 37%;
+    position:absolute;
+}
+
+
+    .textLine h2 {
+        color: #ffffff;
+        font-size: 32px;
+        margin:6px 10px;
+    }
+.late{
+    background: #303030;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    margin-left:40%;
+}
+
+.beforeLine {
+    background: #303030;
+    height:3px;
+    width:350px;
+    margin-left:200px;
+   margin-bottom:-26px;
+}
+.afterLine {
+    background: #303030;
+    height: 3px;
+    width: 350px;
+    margin-right: 210px;
+    margin-top: -26px;
+}
+
+
+.secondRow {
+    height: auto;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.workImage {
+    float: left;
+    width: 33.3%;
+    position: relative;
+}
+    .workImage p {
+        text-align: center;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+.workImage img {
+    width: 290px;
+    height: 190px;
+    border: 5px solid #ffffff;
+    
+}
+
+.imageTxt {
+    position: absolute;
+    bottom: 9px;
+    left: 5px;
+    width: 290px;
+    height: 30px;
+    color: white;
+    background: #151515;
+    text-align:center;
+}
+    .imageTxt p {
+        font-size: 14px;
+        color:#ffffff;
+        line-height:5px;
+    }
+    .workImage:hover .imageTxt {
+        display: none;
+        
+    }
+.workImage:hover {
+    cursor: pointer;
+}
+
+.footerSection {
+    background: #303030;
+}
+.footerContent {
+    width: 100%;
+    height: auto;
+}
+
+p.mainTitle {
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+p.secondTitle {
+    color: #76c38f;
+    font-size: 16px;
+}
+p.thirdTitle {
+    font-size: 10px;
+    color: #666666;
+}
+span.green {
+    color: #76c38f;
+}
+
+p.day {
+    font-size: 10px;
+    color: #979797;
+}
+p.details {
+    color: #979797;
+    font-size:13px;
+    line-height:22px;
+}
+
+a.blogLink {
+    text-decoration: none;
+    color: #76c38f;
+    font-size: 13px;
+    /** display:block;*/
+}
+
+.blog {
+    /**  margin-left:5px;*/
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.blog:first-child{
+    margin-left:0;
+}
+.line {
+    background: #404040;
+    height: 1px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+.myInput {
+    height: 35px;
+    width: 100%;
+    background: #222222;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-bottom: 13px;
+    border: none;
+    color: #989898;
+    font-size:13px;
+}
+textarea.myInput {
+    height: 80px;
+}
+.submitBtn {
+    text-transform: uppercase;
+    color: #303030;
+    font-size: 12px;
+    background: #76c38f;
+    text-align:/center;
+    border:none;
+    border-radius:10px;
+    width:76px;
+    height:35px
+}
+.blackLine {
+    background: #000000;
+    height: 3px;
+}
+.copyRightSection {
+    background: #2b2b2b
+}
+
+    .copyRightSection p {
+        color: #979797;
+        font-size:13px;
+
+    }
+.leftText{
+    float:left;
+    width:50%;
+}
+.rightText {
+    float: right;
+    width: 50%;
+    text-align:right;
+}
